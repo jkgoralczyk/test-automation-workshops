@@ -66,7 +66,7 @@ describe('AppComponent', () => {
     expect(component.verifyDate(2019, 11, 31)).toBe(false);
     expect(component.verifyDate(2019, 12, 32)).toBe(false);
   });
-  
+
   it('should validate function getDate', () => {
     expect(component.getDate(14503583508)).toBeUndefined();
   });
