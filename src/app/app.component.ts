@@ -52,7 +52,7 @@ export class AppComponent {
   hasFocus: boolean;
 
 
-  onSubmit() {
+  onSubmit(){
     this.isInitiated = true;
     const pesel = this.inputNumber;
     this.isValid = this.isValidPesel(pesel);
