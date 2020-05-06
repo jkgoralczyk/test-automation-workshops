@@ -21,3 +21,4 @@ deploy:
   local_dir: dist/pesel
   on:
     branch: master
+
